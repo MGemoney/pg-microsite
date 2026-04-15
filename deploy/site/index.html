@@ -1124,19 +1124,13 @@ nav.scrolled {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
+  row-gap: 3rem;
   margin-top: 3rem;
   position: relative;
 }
 
 .process-timeline::before {
-  content: '';
-  position: absolute;
-  top: 2.75rem;
-  left: 2rem;
-  right: 2rem;
-  height: 2px;
-  background: var(--gradient);
-  opacity: 0.4;
+  display: none;
 }
 
 .process-step {
@@ -2072,7 +2066,7 @@ body::before {
   <div class="type-ghost">PROCESS</div>
   <div class="container">
     <div class="reveal">
-      <div class="section-label">Way of Work</div>
+      <div class="section-label">Ways of Working</div>
       <h2 class="section-title">A proven <strong>10-step approach</strong> for P&G</h2>
       <p class="section-subtitle">From kick-off to continuous optimization, our structured methodology ensures alignment, efficiency, and measurable results at every stage.</p>
     </div>
